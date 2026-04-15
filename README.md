@@ -4,10 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-```js
-const name = "Rafael";
-console.log(name);
-```
+> This is a quote
 
 In the project directory, you can run:
 
