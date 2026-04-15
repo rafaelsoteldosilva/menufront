@@ -4,10 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-| Name   | Role      |
-| ------ | --------- |
-| Rafael | Developer |
-| Ana    | Designer  |
+<details>
+  <summary>Click to expand</summary>
+
+Hidden content here.
+
+</details>
 
 In the project directory, you can run:
 
