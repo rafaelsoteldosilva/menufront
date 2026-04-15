@@ -4,7 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Use `npm install` to install dependencies.
+```js
+const name = "Rafael";
+console.log(name);
+```
 
 In the project directory, you can run:
 
