@@ -4,12 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-<details>
-  <summary>Click to expand</summary>
-
-Hidden content here.
-
-</details>
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
 
 In the project directory, you can run:
 
