@@ -4,9 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-- Item one
-- Item two
-- Item three
+| Name   | Role      |
+| ------ | --------- |
+| Rafael | Developer |
+| Ana    | Designer  |
 
 In the project directory, you can run:
 
