@@ -4,10 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-![React](https://img.shields.io/badge/React-Frontend-61DAFB)
-![Django](https://img.shields.io/badge/Django-Backend-092E20)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+Use `npm install` to install dependencies.
 
 In the project directory, you can run:
 
