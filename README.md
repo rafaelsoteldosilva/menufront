@@ -1,70 +1,185 @@
-# Getting Started with Create React App
+# Restaurant Digital Menu Platform — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend for a browser-based restaurant digital menu platform built with React.
 
-## Available Scripts
+This project was created to let restaurants publish a digital menu that customers can open directly in the browser, without needing to install a mobile app. It also includes private management flows so restaurant staff can manage categories, dishes, promotions, deliveries, reviews, users, and related menu settings.
 
-In the project directory, you can run:
+This repository represents the frontend application of the system.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Summary
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Many restaurants need a practical digital menu solution that is easy for customers to access and easy for staff to maintain.
 
-### `npm test`
+This frontend was built to solve that problem by covering two main areas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **public side**: menu browsing, promotions, reviews, delivery-related views, payment-related screens
+- **private side**: restaurant management area for editing menu content and configuration
 
-### `npm run build`
+This project is part of a full-stack solution and is presented as a portfolio project / case study that demonstrates my ability to build a real-world web application with React, state management, protected routes, reusable components, and API integration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What This Frontend Demonstrates
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project demonstrates my ability to:
 
-### `npm run eject`
+- build a real-world React application with multiple business flows
+- structure a frontend around both public and private areas
+- organize screens, dialogs, and reusable components clearly
+- integrate a frontend with a backend API
+- manage application state with slices/reducers and shared contexts
+- implement protected routes and restricted management views
+- build UI flows for menu administration, promotions, reviews, deliveries, and payments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Main Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Public Features
+- Restaurant menu browsing from the browser
+- Category and dish visualization
+- Promotions display
+- Reviews and rating-related screens
+- Delivery-related public views
+- Share-related flows
+- Payment-related screens
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Private / Management Features
+- Management login dialog
+- Category management
+- Dish management
+- Promotion management
+- Preferences management
+- Restaurant user management
+- Delivery configuration flows
+- Review moderation / rejection reason flows
+- Image selection and image usage flows
 
-## Learn More
+### Application Features
+- Route protection for restricted areas
+- API-driven data loading
+- State slices for key entities
+- Shared global state and navigation contexts
+- Reusable visual components for menu and management screens
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
 
-### Code Splitting
+- **React**
+- **JavaScript**
+- **Redux-style state management**
+- **Context API**
+- **Axios**
+- **React Router style navigation structure**
+- **CSS / project-defined styling approach**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> If you want, you can later replace this section with the exact libraries used in `package.json`.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Frontend Architecture
 
-### Making a Progressive Web App
+The frontend is organized to separate concerns and keep the app maintainable as features grow.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Main architectural areas
 
-### Advanced Configuration
+- `components/`  
+  Reusable UI components for menu display, list items, headers, deliveries, promotions, reviews, and shared visual pieces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `routes/`  
+  Main screens and dialog flows for both public usage and private restaurant management.
 
-### Deployment
+- `slices/`  
+  State slices for important application domains such as reviews, menu data, payment options, delivery companies, and restaurant users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- `appReducers/`  
+  Additional reducer-based state handling.
 
-### `npm run build` fails to minify
+- `axiosCalls/`  
+  Centralized API communication layer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `contexts/`  
+  Shared state for environment options, global state, and navigation behavior.
+
+- `RouteProtectors/`  
+  Logic for guarding restricted routes and checking access/state conditions.
+
+- `utils/`  
+  Support functions such as response checking, image utilities, helper functions, video handling, and toast/message behavior.
+
+- `globalDefinitions/`  
+  Global constants, modal definitions, and shared styles.
+
+This structure reflects an app that is not just a simple menu viewer, but a broader restaurant management frontend with multiple user flows.
+
+---
+
+## Relevant Functional Areas in the Codebase
+
+Some important functional areas reflected in the project structure are:
+
+- menu display
+- category and dish flows
+- image management
+- restaurant deliveries
+- promotions
+- reviews
+- payment views
+- admin dialogs
+- user management
+- route protection
+- shared UI behavior
+
+This matters because it shows the project handles real product workflows rather than only static pages.
+
+---
+
+## Example User Flows
+
+### Customer / Public User
+- Open the digital menu in the browser
+- Browse categories and dishes
+- View promotions
+- Read reviews
+- Access restaurant delivery information
+- Go through payment-related screens where applicable
+
+### Restaurant / Admin User
+- Log into the management area
+- Create or edit categories
+- Create or edit dishes
+- Configure restaurant preferences
+- Manage restaurant users
+- Manage promotions
+- Review or moderate review-related data
+- Configure restaurant delivery information
+
+---
+
+## Project Structure
+
+```bash
+MENUFRONT
+├─ public/
+├─ src/
+│  ├─ appReducers/
+│  ├─ assets/
+│  ├─ axiosCalls/
+│  ├─ components/
+│  ├─ contexts/
+│  ├─ globalDefinitions/
+│  ├─ RouteProtectors/
+│  ├─ routes/
+│  ├─ slices/
+│  ├─ utils/
+│  ├─ App.js
+│  ├─ index.js
+│  └─ Main.js
+├─ .env
+├─ .gitignore
+├─ package.json
+├─ settings.json
+└─ README.md
