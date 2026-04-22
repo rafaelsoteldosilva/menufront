@@ -19,6 +19,8 @@ This frontend was built to solve that problem by covering two main areas:
 
 This project is part of a full-stack solution and is presented as a portfolio project / case study that demonstrates my ability to build a real-world web application with React, state management, protected routes, reusable components, and API integration.
 
+[Please click here to go to the portfolio](https://www.google.com)
+
 ---
 
 ## What This Frontend Demonstrates
@@ -66,8 +68,6 @@ This project demonstrates my ability to:
 - State slices for key entities
 - Shared global state and navigation contexts
 - Reusable visual components for menu and management screens
-
-[Please click here for more info and videos of the interface](https://www.google.com)
 
 ---
 
