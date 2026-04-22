@@ -78,7 +78,8 @@ This project demonstrates my ability to:
 - **Context API**
 - **Axios**
 - **React Router style navigation structure**
-- **PaypalImage Hostings like cloudinary**
+- **Paypal**
+- **Image Hostings like cloudinary**
 
 ---
 
@@ -135,8 +136,6 @@ Some important functional areas reflected in the project structure are:
 - route protection
 - shared UI behavior
 
-This matters because it shows the project handles real product workflows rather than only static pages.
-
 ---
 
 ## Example User Flows
@@ -158,6 +157,7 @@ This matters because it shows the project handles real product workflows rather 
 - Configure restaurant preferences
 - Manage restaurant users
 - Manage promotions
+- Manage Delivery options for diners
 - Review or moderate review-related data
 - Configure restaurant delivery information
 
