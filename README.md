@@ -38,6 +38,7 @@ This project demonstrates my ability to:
 ## Main Features
 
 ### Public Features
+
 - Restaurant menu browsing from the browser
 - Category and dish visualization
 - Promotions display
@@ -47,6 +48,7 @@ This project demonstrates my ability to:
 - Payment-related screens
 
 ### Private / Management Features
+
 - Management login dialog
 - Category management
 - Dish management
@@ -58,6 +60,7 @@ This project demonstrates my ability to:
 - Image selection and image usage flows
 
 ### Application Features
+
 - Route protection for restricted areas
 - API-driven data loading
 - State slices for key entities
@@ -70,13 +73,12 @@ This project demonstrates my ability to:
 
 - **React**
 - **JavaScript**
+- **CSS / project-defined styling approach**
 - **Redux-style state management**
 - **Context API**
 - **Axios**
 - **React Router style navigation structure**
-- **CSS / project-defined styling approach**
-
-> If you want, you can later replace this section with the exact libraries used in `package.json`.
+- **PaypalImage Hostings like cloudinary**
 
 ---
 
@@ -140,6 +142,7 @@ This matters because it shows the project handles real product workflows rather 
 ## Example User Flows
 
 ### Customer / Public User
+
 - Open the digital menu in the browser
 - Browse categories and dishes
 - View promotions
@@ -148,6 +151,7 @@ This matters because it shows the project handles real product workflows rather 
 - Go through payment-related screens where applicable
 
 ### Restaurant / Admin User
+
 - Log into the management area
 - Create or edit categories
 - Create or edit dishes
@@ -183,3 +187,4 @@ MENUFRONT
 ├─ package.json
 ├─ settings.json
 └─ README.md
+```
