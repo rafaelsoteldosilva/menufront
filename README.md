@@ -67,6 +67,8 @@ This project demonstrates my ability to:
 - Shared global state and navigation contexts
 - Reusable visual components for menu and management screens
 
+[Please click here for more info and videos of the interface](https://www.google.com)
+
 ---
 
 ## Tech Stack
@@ -79,7 +81,7 @@ This project demonstrates my ability to:
 - **Axios**
 - **React Router style navigation structure**
 - **Paypal**
-- **Image Hostings like cloudinary**
+- **Image Hostings like Cloudinary**
 
 ---
 
@@ -97,9 +99,6 @@ The frontend is organized to separate concerns and keep the app maintainable as 
 
 - `slices/`  
   State slices for important application domains such as reviews, menu data, payment options, delivery companies, and restaurant users.
-
-- `appReducers/`  
-  Additional reducer-based state handling.
 
 - `axiosCalls/`  
   Centralized API communication layer.
